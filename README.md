@@ -5,6 +5,7 @@ This project will describe the approach taken to solve this problem using Decisi
 
 ### Data Exploration and Analysis
 The dataset used for this task is the 'energy_dataset.csv'. The dataset contains information on the daily electricity consumption of heavy machinery used by businesses. A new dataframe was created by selecting specific columns, which were found to be relevant to the problem at hand. The correlation between the selected variables was visualized using a heatmap. It was found that there was a positive correlation between 'ActualWindProduction' and 'ForecastWindProduction' and a negative correlation between 'SystemLoadEP2' and 'CO2Intensity'.There is positive correlation with month and the WeakofYear.
+![Boxplot of distribution of variables](https://github.com/zarifshawon/Predictive-Analysis-Supervised-Learning---Electricity-Price-Prediction/blob/main/boxplot.png)
 
 ### Data Pre-processing and Transformation
 
